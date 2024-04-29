@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 15px;
+}
+.burger{
+    width: 34px;
+    height: 29px;
+    background-image: url(./../assets/icons/menu-open.png);
+    background-repeat: no-repeat;
+}
+.logo{
+    display: block;
+    width: 135px;
+    height: 75px;
+    background-image: url(./assets/images/logo.png);
+    background-repeat: no-repeat;
+}
+.lang{
+    width: 98px;
+    height: 98px;
+    background-color: red;
+    color:white;
+    text-transform: uppercase;
+    font-weight:bold;
+    font-size: 20px;
+    line-height:98px;
+   
+    
+}
+@media screen and (min-width:768px){
+.logo{
+    margin-right: auto;
+    margin-left:56px ;
+}
+}
+@media screen and (min-width:768px){
+    .logo{
+        display: none;
+    }
+    .menu{
+        display: flex;
+        list-style: none;
+    }
+    }
+    .menu a{
+padding: ;
+    }
