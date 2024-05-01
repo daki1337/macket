@@ -1,0 +1,31 @@
+.footer{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.footer-social{
+    list-style-type: none;
+    display: flex;
+    
+    
+
+}
+.footer-menu{
+    list-style-type: none; 
+    display: flex;
+    
+    
+
+}
+.footer-social a{
+    padding: 3px;
+    
+    
+
+}
+.footer-menu a{
+    padding: 10px;
+    
+
+}
+
