@@ -5,12 +5,23 @@ body{
     margin: 0;
     font-family: Montserrat, sans-serif;
 }
+a{
+    color:inherit;
+    text-decoration: none;
+    
+}
 .wrapper{
     background-image:linear-gradient(90deg,white 70px,yellow 70px);
 
 }
-@media screen and (min-width 1200px){
+@media screen and (min-width: 1200px){
     .wrapper{
         background-image:linear-gradient(90deg, white 245px, yellow 70px);
     }
+}
+
+ul{
+    list-style: none;
+    margin: ;
+    
 }
