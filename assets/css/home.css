@@ -1,0 +1,49 @@
+main{
+    padding-left:15px;
+    padding-bottom: 25px;
+}
+.title{
+    font-size: 72px;
+
+
+}
+.flex{
+    display: flex;
+}
+.mobile-unicorn{
+    display: block;
+    margin: 70px auto;
+}
+.content{}
+.more{
+    display: block;
+    width: 120px;
+    height: 120px;
+    padding: 40px 10px;
+    background-color:red;
+    color:white;
+    font-size:16px ;
+    font-weight: 700;
+
+}
+.more img{
+    margin-top: 10px;
+}
+.text{
+    font-size: 24px;
+width: 70%;
+font-weight: 600;
+}
+.big-unicorn{
+    display: none;
+}
+@media screen and (min-width:768px){
+    .mobile-unicorn{
+        display: none;
+    }
+    .big-unicorn{
+        display: block;
+        margin-left: 100px;
+    }
+}
+@media screen and (min-width: 1200px) {}
