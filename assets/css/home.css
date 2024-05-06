@@ -3,7 +3,8 @@ main{
     padding-bottom: 25px;
 }
 .title{
-    font-size: 72px;
+    font-size: 32px;
+    text-transform: uppercase;
 
 
 }
@@ -14,7 +15,10 @@ main{
     display: block;
     margin: 70px auto;
 }
-.content{}
+.content{
+    display: flex;
+    flex-direction: column;
+}
 .more{
     display: block;
     width: 120px;
@@ -38,6 +42,17 @@ font-weight: 600;
     display: none;
 }
 @media screen and (min-width:768px){
+    .title{
+        font-size: 72px;
+        
+    }
+    .content{
+        flex-direction: row;
+    }
+    .text{
+        margin-left: 50px;
+        width: 460px;
+    }
     .mobile-unicorn{
         display: none;
     }

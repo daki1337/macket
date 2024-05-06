@@ -14,7 +14,8 @@
 }
 .footer-menu{
     list-style: none; 
-    
+    color:rgb(109, 104, 104);
+    display: none;
     
     
 
@@ -31,3 +32,8 @@
 
 }
 
+@media screen and (min-width:768px){
+    .footer-menu{
+        display: flex;
+    }
+}
