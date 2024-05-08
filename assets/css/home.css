@@ -1,6 +1,7 @@
 main{
+    position: relative;
     padding-left:15px;
-    padding-bottom: 25px;
+    padding-bottom: 5px;
 }
 .title{
     font-size: 32px;
